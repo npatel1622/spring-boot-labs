@@ -12,7 +12,6 @@ public class BootDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BootDemoApplication.class, args);
 	}
-
 	
 	@RequestMapping("/")
 	public String hello() {
