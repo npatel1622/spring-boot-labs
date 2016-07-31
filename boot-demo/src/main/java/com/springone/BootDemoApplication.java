@@ -13,6 +13,7 @@ public class BootDemoApplication {
 		SpringApplication.run(BootDemoApplication.class, args);
 	}
 
+	
 	@RequestMapping("/")
 	public String hello() {
 		return "Hello World!";
